@@ -26,7 +26,7 @@ steps:
       - '--cpu'
       - '1'
       - '--set-env-vars'
-      - 'NODE_ENV=production,PORT=8080'
+      - 'NODE_ENV=production,PORT=8080,MONGO_URI=mongodb+srv://arduus:2XFx7SZqWcunVgnj@cluster0.bgbirpu.mongodb.net/?retryWrites=true&w=majority,JWT_SECRET=c93a28aed6bfca9cb4e5fe719d9e65d8b2478347a6f5a91856a3f28ad246e933,JWT_EXPIRES_IN=30d,UPLOAD_PATH=./uploads'
 
 # Imagens a serem armazenadas no Container Registry
 images:
